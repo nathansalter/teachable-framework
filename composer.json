@@ -1,0 +1,14 @@
+{
+  "type": "library",
+  "name": "teachable/framework",
+  "description": "A very simple framework to teach the basics of how routing/frameworks work",
+  "license": "MIT",
+  "require": {
+    "php": "^7.4 | ^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Teachable\\": ["src/"]
+    }
+  }
+}
